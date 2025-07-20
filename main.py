@@ -3,7 +3,7 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.utils import executor
 
-API_TOKEN = os.getenv("API_TOKEN")
+API_TOKEN = os.getenv("BOT_TOKEN")  # Исправлено название переменной
 CHANNEL_ID = '@robloxskuf'
 
 bot = Bot(token=API_TOKEN)
